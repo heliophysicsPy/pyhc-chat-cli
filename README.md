@@ -20,7 +20,7 @@ The key insight: modern coding agents are excellent at navigating repositories t
 ### Prerequisites
 - One or more agent CLIs installed and authenticated:
   - [Claude Code](https://claude.ai/code)
-  - [Codex](https://platform.openai.com/docs/codex)
+  - [Codex](https://developers.openai.com/codex/cli)
   - [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 - Git 2.13+ (for submodule support)
 

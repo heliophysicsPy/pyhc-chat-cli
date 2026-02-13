@@ -1,21 +1,24 @@
-# PyHC-Chat-Claude
+# PyHC-Chat-CLI
 
-A specialized Claude Code environment for answering questions about the Python in Heliophysics Community (PyHC) and its 96+ Python packages.
+A specialized multi-agent CLI environment for answering questions about the Python in Heliophysics Community (PyHC) and its 96+ Python packages.
 
 ## Overview
 
-This repository provides a ready-to-use Claude Code setup that can answer questions about:
+This repository provides a ready-to-use setup for Claude Code, Codex, and Gemini CLI that can answer questions about:
 - The PyHC organization and community
 - Any of the 96+ PyHC Python packages
 - Package implementation details, usage, and code structure
 - Cross-package comparisons and recommendations
 
-The key insight: Claude Code is excellent at navigating code repositories to answer questions. This repo houses all PyHC package repos as git submodules, allowing Claude to autonomously search through them to answer your questions.
+The key insight: modern coding agents are excellent at navigating repositories to answer questions. This repo houses all PyHC package repos as git submodules, allowing agents to autonomously search through them and answer your questions.
 
 ## Quick Start
 
 ### Prerequisites
-- [Claude Code](https://claude.ai/code) installed
+- One or more agent CLIs installed and authenticated:
+  - [Claude Code](https://claude.ai/code)
+  - [Codex](https://platform.openai.com/docs/codex)
+  - [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 - Git 2.13+ (for submodule support)
 
 ### Clone the Repository
@@ -23,15 +26,15 @@ The key insight: Claude Code is excellent at navigating code repositories to ans
 **Important:** You must clone with the `--recursive` flag to download all PyHC packages:
 
 ```bash
-git clone --recursive https://github.com/heliophysicsPy/pyhc-chat-claude.git
-cd pyhc-chat-claude
+git clone --recursive https://github.com/heliophysicsPy/pyhc-chat-cli.git
+cd pyhc-chat-cli
 ```
 
 **Or**, if you already cloned without `--recursive`:
 
 ```bash
-git clone https://github.com/heliophysicsPy/pyhc-chat-claude.git
-cd pyhc-chat-claude
+git clone https://github.com/heliophysicsPy/pyhc-chat-cli.git
+cd pyhc-chat-cli
 git submodule update --init --recursive
 ```
 
@@ -39,8 +42,18 @@ This will download all 96 PyHC package repositories (~several GB).
 
 ### Start Chatting
 
+Run the agent you want to use:
+
 ```bash
 claude
+```
+
+```bash
+codex
+```
+
+```bash
+gemini
 ```
 
 Then ask questions like:
@@ -52,11 +65,13 @@ Then ask questions like:
 ## Repository Structure
 
 ```
-pyhc-chat-claude/
+pyhc-chat-cli/
 ├── pyhc_packages/          # All 96 PyHC packages as git submodules
 │   ├── heliophysicsPy.github.io/  # PyHC website (contains metadata)
 │   └── ...                 # 95 more packages
 ├── CLAUDE.md               # Instructions for Claude Code
+├── AGENTS.md               # Instructions for Codex
+├── GEMINI.md.md            # Instructions for Gemini CLI
 └── .github/workflows/      # Automated package updates
     └── update-submodules.yml
 ```
@@ -95,9 +110,9 @@ See `pyhc_packages/heliophysicsPy.github.io/_data/` for complete package metadat
 ## How It Works
 
 1. **Git Submodules**: Each PyHC package is a git submodule pointing to its official repository
-2. **Full Git History**: Claude Code can access the complete development history of each package
+2. **Full Git History**: Each agent can access the complete development history of each package
 3. **Automated Updates**: GitHub Actions keeps all packages synchronized with their upstream repos
-4. **CLAUDE.md**: Specialized instructions that guide Claude on how to search packages, cite sources, and acknowledge limitations when answering PyHC questions
+4. **Agent Instructions**: Specialized instructions in `CLAUDE.md`, `AGENTS.md`, and `GEMINI.md.md` guide each agent on how to search packages, cite sources, and acknowledge limitations
 
 ## Contributing
 
@@ -110,7 +125,7 @@ This is an experiment in AI-assisted PyHC support. Contributions welcome:
 ## Notes
 
 - First clone will take several minutes and ~several GB of disk space
-- Claude Code requires an active subscription
+- Your selected agent may require an active subscription and/or API access
 - This is a community tool, not an official PyHC project
 - For authoritative answers, always consult official package documentation
 

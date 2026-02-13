@@ -292,3 +292,27 @@
 [submodule "pyhc_packages/pyhc-actions"]
 	path = pyhc_packages/pyhc-actions
 	url = https://github.com/heliophysicsPy/pyhc-actions.git
+[submodule "pyhc_packages/hssi-metadata-extractor"]
+	path = pyhc_packages/hssi-metadata-extractor
+	url = https://github.com/Heliophysics-Software-Search-Interface/hssi-metadata-extractor.git
+[submodule "pyhc_packages/hssi-website"]
+	path = pyhc_packages/hssi-website
+	url = https://github.com/Heliophysics-Software-Search-Interface/hssi-website.git
+[submodule "pyhc_packages/pyhc-repo-template"]
+	path = pyhc_packages/pyhc-repo-template
+	url = https://github.com/heliophysicsPy/pyhc-repo-template.git
+[submodule "pyhc_packages/pyhc-standards-evaluator"]
+	path = pyhc_packages/pyhc-standards-evaluator
+	url = https://github.com/heliophysicsPy/pyhc-standards-evaluator.git
+[submodule "pyhc_packages/science-platforms-coordination"]
+	path = pyhc_packages/science-platforms-coordination
+	url = https://github.com/heliophysicsPy/science-platforms-coordination.git
+[submodule "pyhc_packages/summer-school"]
+	path = pyhc_packages/summer-school
+	url = https://github.com/heliophysicsPy/summer-school.git
+[submodule "pyhc_packages/summer-school-24"]
+	path = pyhc_packages/summer-school-24
+	url = https://github.com/heliophysicsPy/summer-school-24.git
+[submodule "pyhc_packages/PyHC-Chat"]
+	path = pyhc_packages/PyHC-Chat
+	url = https://github.com/sapols/PyHC-Chat.git

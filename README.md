@@ -112,7 +112,7 @@ git submodule update --remote --merge
 96 PyHC packages including:
 
 **Core Packages:**
-- sunpy, spacepy, pysat, PlasmaPy, pyspedas, Kamodo
+- HAPI Client, Kamodo, PlasmaPy, pysat, pySPEDAS, SpacePy, SunPy
 
 **Standards & Documentation:**
 - heliophysicsPy.github.io (PyHC website)

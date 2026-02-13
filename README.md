@@ -133,8 +133,8 @@ See `pyhc_packages/heliophysicsPy.github.io/_data/` for complete package metadat
 
 This is an experiment in AI-assisted PyHC support. Contributions welcome:
 - Add missing PyHC packages
-- Improve CLAUDE.md instructions
-- Report issues with Claude's answers
+- Improve agent instruction files (`CLAUDE.md`, `AGENTS.md`, `GEMINI.md.md`)
+- Report issues with answers from Claude Code, Codex, or Gemini CLI
 - Share interesting use cases
 
 ## Notes

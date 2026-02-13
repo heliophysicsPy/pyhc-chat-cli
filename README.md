@@ -62,7 +62,7 @@ gemini
 Then ask questions like:
 - "How does SunPy use FITS/WCS metadata with solar coordinate frames and transformations?"
 - "Which PyHC packages support CDF file reading?"
-- "Show me how pysat handles time series data"
+- "Show me how to download a HAPI dataset."
 - "When should I use aacgmv2 vs apexpy for magnetic coordinate conversions?"
 - "How do I use SpacePy coordinates in a workflow with PySPEDAS data?"
 - "Who is on current PyHC leadership and where are the latest meeting reports?"

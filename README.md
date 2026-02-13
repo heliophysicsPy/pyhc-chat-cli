@@ -9,6 +9,7 @@ This repository provides a ready-to-use setup for Claude Code, Codex, and Gemini
 - Any of the 96+ PyHC Python packages
 - Package implementation details, usage, and code structure
 - Working with package APIs and workflows (examples, debugging, and integration guidance)
+- Developing and maintaining PyHC packages (bug fixes, tests, docs, and release support)
 - Cross-package comparisons and recommendations
 - General PyHC knowledge (standards, leadership, meetings, and project metadata)
 
@@ -65,6 +66,15 @@ Then ask questions like:
 - "What's the difference between aacgmv2 and apexpy?"
 - "How do I use SpacePy coordinates in a workflow with PySPEDAS data?"
 - "Who is on current PyHC leadership and where are the latest meeting reports?"
+- "Help me add tests for this bug in my package and update the docs."
+
+## For PyHC Members
+
+You can use this repo as a practical maintenance and development workspace across the PyHC ecosystem. Typical tasks include:
+- Tracing where behavior is implemented across packages
+- Prototyping fixes and adding tests in your package
+- Updating API docs and examples to match code changes
+- Comparing patterns used by other PyHC packages before making design decisions
 
 ## Repository Structure
 

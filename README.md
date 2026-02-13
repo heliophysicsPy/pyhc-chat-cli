@@ -60,10 +60,10 @@ gemini
 ```
 
 Then ask questions like:
-- "How does SunPy handle FITS file coordinate transformations?"
+- "How does SunPy use FITS/WCS metadata with solar coordinate frames and transformations?"
 - "Which PyHC packages support CDF file reading?"
 - "Show me how pysat handles time series data"
-- "What's the difference between aacgmv2 and apexpy?"
+- "When should I use aacgmv2 vs apexpy for magnetic coordinate conversions?"
 - "How do I use SpacePy coordinates in a workflow with PySPEDAS data?"
 - "Who is on current PyHC leadership and where are the latest meeting reports?"
 - "Help me add tests for this bug in my package and update the docs."
@@ -74,6 +74,7 @@ You can use this repo as a practical maintenance and development workspace acros
 - Tracing where behavior is implemented across packages
 - Prototyping fixes and adding tests in your package
 - Updating API docs and examples to match code changes
+- Getting help aligning your package with PyHC standards and best practices
 - Comparing patterns used by other PyHC packages before making design decisions
 
 ## Repository Structure

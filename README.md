@@ -70,11 +70,11 @@ Then ask questions like:
 
 ## For PyHC Members
 
-You can use this repo as a practical maintenance and development workspace across the PyHC ecosystem. Typical tasks include:
+You can use this repo as a practical maintenance and development workspace across the PyHC ecosystem. Tasks might include:
 - Tracing where behavior is implemented across packages
 - Prototyping fixes and adding tests in your package
-- Updating API docs and examples to match code changes
 - Getting help aligning your package with PyHC standards and best practices
+- Updating API docs and examples to match code changes
 - Comparing patterns used by other PyHC packages before making design decisions
 
 ## Repository Structure

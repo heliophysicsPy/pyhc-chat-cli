@@ -294,7 +294,7 @@
 	url = https://github.com/heliophysicsPy/pyhc-actions.git
 [submodule "pyhc_packages/hssi-metadata-extractor"]
 	path = pyhc_packages/hssi-metadata-extractor
-	url = https://github.com/Heliophysics-Software-Search-Interface/hssi-metadata-extractor.git
+	url = https://github.com/Heliophysics-Software-Search-Interface/hssi-claude-agents.git
 [submodule "pyhc_packages/hssi-website"]
 	path = pyhc_packages/hssi-website
 	url = https://github.com/Heliophysics-Software-Search-Interface/hssi-website.git

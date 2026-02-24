@@ -316,6 +316,6 @@
 [submodule "pyhc_packages/PyHC-Chat"]
 	path = pyhc_packages/PyHC-Chat
 	url = https://github.com/sapols/PyHC-Chat.git
-[submodule "pyhc_packages/hssi-metadata-submitter"]
-	path = pyhc_packages/hssi-metadata-submitter
-	url = https://github.com/Heliophysics-Software-Search-Interface/hssi-metadata-submitter.git
+[submodule "pyhc_packages/hssi-codex-agents"]
+	path = pyhc_packages/hssi-codex-agents
+	url = https://github.com/Heliophysics-Software-Search-Interface/hssi-codex-agents.git

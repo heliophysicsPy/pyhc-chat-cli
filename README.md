@@ -4,7 +4,7 @@ A specialized CLI environment for exploring, using, and maintaining the Python i
 
 ## Overview
 
-This repository provides a ready-to-use setup for Claude Code, Codex, and Gemini CLI that can answer questions about:
+This repository provides a ready-to-use setup for Claude Code, Codex CLI, and Gemini CLI that can answer questions about:
 - The PyHC organization and community
 - Any of the 96+ PyHC Python packages
 - Package implementation details, usage, and code structure

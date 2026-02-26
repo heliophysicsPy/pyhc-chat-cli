@@ -1,14 +1,14 @@
 [submodule "pyhc_packages/heliophysicsPy.github.io"]
-	path = pyhc_packages/heliophysicsPy.github.io
+	path = pyhc_resources/heliophysicsPy.github.io
 	url = https://github.com/heliophysicsPy/heliophysicsPy.github.io
 [submodule "pyhc_packages/standards"]
-	path = pyhc_packages/standards
+	path = pyhc_resources/standards
 	url = https://github.com/heliophysicsPy/standards
 [submodule "pyhc_packages/pyhc-docker-environment"]
-	path = pyhc_packages/pyhc-docker-environment
+	path = pyhc_resources/pyhc-docker-environment
 	url = https://github.com/heliophysicsPy/pyhc-docker-environment
 [submodule "pyhc_packages/pyhc-docs"]
-	path = pyhc_packages/pyhc-docs
+	path = pyhc_resources/pyhc-docs
 	url = https://github.com/heliophysicsPy/pyhc-docs
 [submodule "pyhc_packages/sunpy"]
 	path = pyhc_packages/sunpy
@@ -287,35 +287,35 @@
 	path = pyhc_packages/wmm2020
 	url = https://github.com/space-physics/wmm2020
 [submodule "pyhc_packages/pyhc-core"]
-	path = pyhc_packages/pyhc-core
+	path = pyhc_resources/pyhc-core
 	url = https://github.com/heliophysicsPy/pyhc-core.git
 [submodule "pyhc_packages/pyhc-actions"]
-	path = pyhc_packages/pyhc-actions
+	path = pyhc_resources/pyhc-actions
 	url = https://github.com/heliophysicsPy/pyhc-actions.git
 [submodule "pyhc_packages/hssi-claude-agents"]
-	path = pyhc_packages/hssi-claude-agents
+	path = pyhc_resources/hssi-claude-agents
 	url = https://github.com/Heliophysics-Software-Search-Interface/hssi-claude-agents.git
 [submodule "pyhc_packages/hssi-website"]
-	path = pyhc_packages/hssi-website
+	path = pyhc_resources/hssi-website
 	url = https://github.com/Heliophysics-Software-Search-Interface/hssi-website.git
 [submodule "pyhc_packages/pyhc-repo-template"]
-	path = pyhc_packages/pyhc-repo-template
+	path = pyhc_resources/pyhc-repo-template
 	url = https://github.com/heliophysicsPy/pyhc-repo-template.git
 [submodule "pyhc_packages/pyhc-standards-evaluator"]
-	path = pyhc_packages/pyhc-standards-evaluator
+	path = pyhc_resources/pyhc-standards-evaluator
 	url = https://github.com/heliophysicsPy/pyhc-standards-evaluator.git
 [submodule "pyhc_packages/science-platforms-coordination"]
-	path = pyhc_packages/science-platforms-coordination
+	path = pyhc_resources/science-platforms-coordination
 	url = https://github.com/heliophysicsPy/science-platforms-coordination.git
 [submodule "pyhc_packages/summer-school"]
-	path = pyhc_packages/summer-school
+	path = pyhc_resources/summer-school
 	url = https://github.com/heliophysicsPy/summer-school.git
 [submodule "pyhc_packages/summer-school-24"]
-	path = pyhc_packages/summer-school-24
+	path = pyhc_resources/summer-school-24
 	url = https://github.com/heliophysicsPy/summer-school-24.git
 [submodule "pyhc_packages/PyHC-Chat"]
-	path = pyhc_packages/PyHC-Chat
+	path = pyhc_resources/PyHC-Chat
 	url = https://github.com/sapols/PyHC-Chat.git
 [submodule "pyhc_packages/hssi-codex-agents"]
-	path = pyhc_packages/hssi-codex-agents
+	path = pyhc_resources/hssi-codex-agents
 	url = https://github.com/Heliophysics-Software-Search-Interface/hssi-codex-agents.git

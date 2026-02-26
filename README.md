@@ -6,7 +6,7 @@ A specialized CLI environment for exploring, using, and maintaining the Python i
 
 This repository provides a ready-to-use setup for Claude Code, Codex CLI, and Gemini CLI that can answer questions about:
 - The PyHC organization and community
-- Any of the 96+ PyHC Python packages
+- Any of the 92+ PyHC Python packages (in `pyhc_packages/`) and community resources (in `pyhc_resources/`)
 - Package implementation details, usage, and code structure
 - Working with package APIs and workflows (examples, debugging, and integration guidance)
 - Developing and maintaining PyHC packages (bug fixes, tests, docs, and release support)
@@ -108,12 +108,17 @@ You can use this repo as a practical maintenance and development workspace acros
 
 ```
 pyhc-chat-cli/
-├── pyhc_packages/          # All 96 PyHC packages as git submodules
+├── pyhc_packages/          # 92 PyHC packages as git submodules
+│   ├── sunpy/              # Solar physics
+│   ├── spacepy/            # Space science tools
+│   └── ...                 # 90 more packages
+├── pyhc_resources/         # 15 community & infrastructure repos
 │   ├── heliophysicsPy.github.io/  # PyHC website (contains metadata)
-│   └── ...                 # 95 more packages
+│   ├── standards/          # PyHC standards & PHEPs
+│   └── ...                 # 13 more repos
 ├── CLAUDE.md               # Instructions for Claude Code
 ├── AGENTS.md               # Instructions for Codex
-├── GEMINI.md.md            # Instructions for Gemini CLI
+├── GEMINI.md               # Instructions for Gemini CLI
 └── .github/workflows/      # Automated package updates
     └── update-submodules.yml
 ```
@@ -136,31 +141,30 @@ git submodule update --remote --merge
 
 ## Included Packages
 
-96 PyHC packages including:
+92 PyHC packages including:
 
 **Core Packages:**
 - HAPI Client, Kamodo, PlasmaPy, pysat, pySPEDAS, SpacePy, SunPy
 
-**Standards & Documentation:**
-- heliophysicsPy.github.io (PyHC website)
-- standards, pyhc-docs
+**And 85+ specialized packages** for solar physics, magnetosphere science, ionosphere/thermosphere research, data access, visualization, and more.
 
-**And 89+ specialized packages** for solar physics, magnetosphere science, ionosphere/thermosphere research, data access, visualization, and more.
+**Community Resources** (in `pyhc_resources/`):
+- heliophysicsPy.github.io (PyHC website), standards, pyhc-docs, pyhc-docker-environment, and 11 more infrastructure/tooling repos
 
-See `pyhc_packages/heliophysicsPy.github.io/_data/` for complete package metadata.
+See `pyhc_resources/heliophysicsPy.github.io/_data/` for complete package metadata.
 
 ## How It Works
 
 1. **Git Submodules**: Each PyHC package is a git submodule pointing to its official repository
 2. **Full Git History**: Each agent can access the complete development history of each package
 3. **Automated Updates**: GitHub Actions keeps all packages synchronized with their upstream repos
-4. **Agent Instructions**: Specialized instructions in `CLAUDE.md`, `AGENTS.md`, and `GEMINI.md.md` guide each agent on how to search packages, cite sources, and acknowledge limitations
+4. **Agent Instructions**: Specialized instructions in `CLAUDE.md`, `AGENTS.md`, and `GEMINI.md` guide each agent on how to search packages, cite sources, and acknowledge limitations
 
 ## Contributing
 
 This is an experiment in AI-assisted PyHC support. Contributions welcome:
 - Add missing PyHC packages
-- Improve agent instruction files (`CLAUDE.md`, `AGENTS.md`, `GEMINI.md.md`)
+- Improve agent instruction files (`CLAUDE.md`, `AGENTS.md`, `GEMINI.md`)
 - Report issues with answers from Claude Code, Codex, or Gemini CLI
 - Share interesting use cases
 

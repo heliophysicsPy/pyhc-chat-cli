@@ -1,6 +1,6 @@
 # PyHC-Chat-CLI
 
-A specialized multi-agent CLI environment for exploring, using, and maintaining the Python in Heliophysics Community (PyHC) ecosystem.
+A specialized CLI environment for exploring, using, and maintaining the Python in Heliophysics Community (PyHC) ecosystem with Claude, Codex, and Gemini.
 
 ## Overview
 

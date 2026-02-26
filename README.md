@@ -59,14 +59,41 @@ codex
 gemini
 ```
 
-Then ask questions like:
-- "How does SunPy use FITS/WCS metadata with solar coordinate frames and transformations?"
-- "Which PyHC packages support CDF file reading?"
+## Ask Questions Like:
+### Basic PyHC Questions
+- "How do I join PyHC’s mailing list?"
+- "What’s the Zoom link for telecons?"
+- "Remind me where to find the upcoming Fall meeting agenda?"
+- "What is a PHEP?"
+- "Tell me about PyHC's standards?"
+- "What was taught during the most recent PyHC Summer School?"
+
+### Package-Specific Questions
 - "Show me how to download a HAPI dataset."
+- "How can I produce a difference image using SunPy?" 
 - "When should I use aacgmv2 vs apexpy for magnetic coordinate conversions?"
+- "Walk me through how PySPEDAS implements data downloads."
+
+### Cross-Cutting Questions
+- "Which PyHC packages provide access to Parker Solar Probe data?"
+- "Which packages support magnetospheric coordinate transforms?"
 - "How do I use SpacePy coordinates in a workflow with PySPEDAS data?"
-- "Who is on current PyHC leadership and where are the latest meeting reports?"
+- "Give me a table counting which open source licenses all the PyHC packages use."
+- "Show me which PyHC packages are available in conda."
+
+### Learning & Research Topics
+- "How do I calculate the Alfvén speed in the solar wind?"
+- "Help me learn about substorm dynamics and design a multi-instrument analysis using THEMIS and MMS data."
+- "Write me a script that downloads a week of ACE solar wind data and plots the IMF Bz component."
+
+### Development Help
+- "Does my package meet PyHC's standards? If not, help me meet them."
+- "Make my package PHEP 3 compliant."
 - "Help me add tests for this bug in my package and update the docs."
+
+### Shoot for the Moon
+- "Open a [PR](https://github.com/nasa/Kamodo/pull/155) to fix Kamodo’s pip install by remodeling its build system after SpacePy’s to handle C/Fortran code like they do."
+- "Build me reusable GitHub Actions [workflows](https://github.com/heliophysicsPy/pyhc-actions) packages can use to get red Xs in their CI when they violate PHEP 3 or have a dependency conflict with the PyHC Environment."
 
 ## For PyHC Members
 

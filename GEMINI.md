@@ -81,7 +81,7 @@ The official PyHC website source. Key locations:
   - Spring and Fall meeting summaries with participant lists, agendas, conclusions
 
 - **`_pages/meetings/community_meetings/`** - Individual meeting pages
-  - Details about specific biannual meetings (location, zoom links, materials, recordings)
+  - Details about specific biannual meetings (location, Zoom links, materials, recordings)
 
 - **`_pages/meetings/summer_schools/`** - Summer School information
   - Webpages with details about PyHC Summer Schools
@@ -121,6 +121,10 @@ Unified documentation search across PyHC packages:
 
 - Configuration for the Read The Docs unified search
 - Shows which packages use RTD for documentation
+
+#### Zoom links
+- Biweekly PyHC telecons are held at [this Zoom link](https://cuboulder.zoom.us/j/97372369069) (meeting ID: 973 7236 9069)
+- Spring/Fall Community Meetings tend to share the same Zoom link as telecons (but meeting pages will confirm the correct links)
 
 ## Handling Different Question Types
 

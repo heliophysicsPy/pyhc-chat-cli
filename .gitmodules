@@ -319,3 +319,6 @@
 [submodule "pyhc_packages/hssi-codex-agents"]
 	path = pyhc_resources/hssi-codex-agents
 	url = https://github.com/Heliophysics-Software-Search-Interface/hssi-codex-agents.git
+[submodule "pyhc_resources/hapiplot"]
+	path = pyhc_resources/hapiplot
+	url = https://github.com/hapi-server/plot-python.git

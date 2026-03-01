@@ -112,10 +112,10 @@ pyhc-chat-cli/
 │   ├── sunpy/              # Solar physics
 │   ├── spacepy/            # Space science tools
 │   └── ...                 # 90 more packages
-├── pyhc_resources/         # 15 community & infrastructure repos
+├── pyhc_resources/         # 16 community & infrastructure repos
 │   ├── heliophysicsPy.github.io/  # PyHC website (contains metadata)
 │   ├── standards/          # PyHC standards & PHEPs
-│   └── ...                 # 13 more repos
+│   └── ...                 # 14 more repos
 ├── CLAUDE.md               # Instructions for Claude Code
 ├── AGENTS.md               # Instructions for Codex
 ├── GEMINI.md               # Instructions for Gemini CLI

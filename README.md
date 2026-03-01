@@ -108,15 +108,15 @@ You can use this repo as a practical maintenance and development workspace acros
 
 ```
 pyhc-chat-cli/
-├── pyhc_packages/                 # 92 PyHC packages as git submodules
-├── pyhc_resources/                # 16 community & infrastructure repos
+├── pyhc_packages/      # 92 PyHC packages as git submodules
+├── pyhc_resources/     # 16 community & infrastructure repos
 │   ├── heliophysicsPy.github.io/  # PyHC website (contains metadata)
-│   ├── standards/                 # PyHC standards & PHEPs
-│   └── ...                        # 14 more repos
-├── CLAUDE.md                      # Instructions for Claude Code
-├── AGENTS.md                      # Instructions for Codex
-├── GEMINI.md                      # Instructions for Gemini CLI
-└── .github/workflows/             # Automated package updates
+│   ├── standards/      # PyHC standards & PHEPs
+│   └── ...             # 14 more repos
+├── CLAUDE.md           # Instructions for Claude Code
+├── AGENTS.md           # Instructions for Codex
+├── GEMINI.md           # Instructions for Gemini CLI
+└── .github/workflows/  # Automated package updates
     └── update-submodules.yml
 ```
 

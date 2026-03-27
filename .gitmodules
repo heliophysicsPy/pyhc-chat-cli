@@ -322,3 +322,6 @@
 [submodule "pyhc_resources/hapiplot"]
 	path = pyhc_resources/hapiplot
 	url = https://github.com/hapi-server/plot-python.git
+[submodule "pyhc_packages/pyIntensityFeatures"]
+	path = pyhc_packages/pyIntensityFeatures
+	url = https://github.com/aburrell/pyIntensityFeatures

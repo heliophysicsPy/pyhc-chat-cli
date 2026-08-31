@@ -88,6 +88,9 @@
 [submodule "pyhc_packages/geospacelab"]
 	path = pyhc_packages/geospacelab
 	url = https://github.com/JouleCai/geospacelab
+[submodule "pyhc_packages/HelioAI"]
+	path = pyhc_packages/HelioAI
+	url = https://github.com/erdoganfurkan/HelioAI
 [submodule "pyhc_packages/hermes_core"]
 	path = pyhc_packages/hermes_core
 	url = https://github.com/HERMES-SOC/hermes_core

@@ -6,7 +6,7 @@ A specialized CLI environment for exploring, using, and maintaining the Python i
 
 This repository provides a ready-to-use setup for Claude Code, Codex CLI, and Gemini CLI that can answer questions about:
 - The PyHC organization and community
-- Any of the 93 PyHC Python packages (in `pyhc_packages/`) and community resources (in `pyhc_resources/`)
+- Any of the 94 PyHC Python packages (in `pyhc_packages/`) and community resources (in `pyhc_resources/`)
 - Package implementation details, usage, and code structure
 - Working with package APIs and workflows (examples, debugging, and integration guidance)
 - Developing and maintaining PyHC packages (bug fixes, tests, docs, and release support)
@@ -41,7 +41,7 @@ cd pyhc-chat-cli
 git submodule update --init --recursive
 ```
 
-This will download all 93 PyHC package repositories (~several GB).
+This will download all 94 PyHC package repositories (~several GB).
 
 ### Start Chatting
 
@@ -108,7 +108,7 @@ You can use this repo as a practical maintenance and development workspace acros
 
 ```
 pyhc-chat-cli/
-├── pyhc_packages/      # 93 PyHC packages as git submodules
+├── pyhc_packages/      # 94 PyHC packages as git submodules
 ├── pyhc_resources/     # 16 community & infrastructure repos
 │   ├── heliophysicsPy.github.io/  # PyHC website (contains metadata)
 │   ├── standards/      # PyHC standards & PHEPs
@@ -138,12 +138,12 @@ git submodule update --remote --merge
 
 ## Included Packages
 
-93 PyHC packages including:
+94 PyHC packages including:
 
 **Core Packages:**
 - HAPI Client, Kamodo, PlasmaPy, pysat, pySPEDAS, SpacePy, SunPy
 
-**And 86 specialized packages** for solar physics, magnetosphere science, ionosphere/thermosphere research, data access, visualization, and more.
+**And 87 specialized packages** for solar physics, magnetosphere science, ionosphere/thermosphere research, data access, visualization, and more.
 
 **Community Resources** (in `pyhc_resources/`):
 - heliophysicsPy.github.io (PyHC website), standards, pyhc-docs, pyhc-docker-environment, and 11 more infrastructure/tooling repos

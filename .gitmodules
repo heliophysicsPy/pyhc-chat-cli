@@ -187,6 +187,9 @@
 [submodule "pyhc_packages/sunraster"]
 	path = pyhc_packages/sunraster
 	url = https://github.com/sunpy/sunraster
+[submodule "pyhc_packages/SWVO"]
+	path = pyhc_packages/SWVO
+	url = https://github.com/GFZ/SWVO
 [submodule "pyhc_packages/swxsoc"]
 	path = pyhc_packages/swxsoc
 	url = https://github.com/swxsoc/swxsoc
